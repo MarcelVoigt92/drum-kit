@@ -11,36 +11,32 @@ for (let i = 0; i < drumButtons; i++) {
 const makeSound = (key) => {
   switch (key) {
     case "w":
-      let tomOne = new Audio("sounds/taking the hobbits to isengard.mp3");
+      let tomOne = new Audio("sounds/tom-1.mp3");
       tomOne.play();
       break;
     case "a":
-      let tomTwo = new Audio("sounds/FPMV PFUDOR.mp3");
+      let tomTwo = new Audio("sounds/tom-2.mp3");
       tomTwo.play();
       break;
     case "s":
-      let tomThree = new Audio("sounds/EMOTIONAL DAMAGE.mp3");
+      let tomThree = new Audio("sounds/tom-3.mp3");
       tomThree.play();
       break;
     case "d":
-      let tomFour = new Audio("sounds/Why you heff to be mad (Original).mp3");
+      let tomFour = new Audio("sounds/tom-4.mp3");
       tomFour.play();
       break;
     case "j":
-      let snare = new Audio(
-        "sounds/Sweet Brown - Aint Nobody Got Time for That (Autotune Remix).mp3"
-      );
+      let snare = new Audio("sounds/snare.mp3");
       snare.play();
       break;
     case "k":
-      let bassDrum = new Audio("sounds/Ha Got Em.mp3");
-      bassDrum.play();
+      let crash = new Audio("sounds/crash.mp3");
+      crash.play();
       break;
     case "l":
-      let crash = new Audio(
-        "sounds/Rick Astley - Never Gonna Give You Up (Official Music Video).mp3"
-      );
-      crash.play();
+      let bassDrum = new Audio("sounds/kick-bass.mp3");
+      bassDrum.play();
       break;
 
     default:
